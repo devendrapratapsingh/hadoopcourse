@@ -23,7 +23,8 @@ public static void main(String args[]) throws IOException{
 	job.setMapperClass(PatentMapper.class);
 	job.setMapOutputKeyClass(Text.class);
 	job.setMapOutputValueClass(LongWritable.class);
-	job.setCombinerClass(PatentReducer.class);
+	//job.setCombinerClass(PatentReducer.class);
+	
 	job.setReducerClass(PatentReducer.class);
 	
 	job.setInputFormat(TextInputFormat.class);
