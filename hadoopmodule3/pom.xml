@@ -4,7 +4,7 @@
 
   <groupId>hadoopmodule3</groupId>
   <artifactId>hadoopmodule3</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>HotColdJob</version>
   <packaging>jar</packaging>
 
   <name>hadoopmodule3</name>
@@ -43,7 +43,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>hadoopmodule3.patent.PatentSolutionJob</mainClass>
+              <mainClass>hadoopmodule3.hotcold.HotColdJob</mainClass>
             </manifest>
           </archive>
         </configuration>
